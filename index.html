@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <!-- Metadata and responsive setup -->
+  <meta charset="UTF-8">
+  <title>Dogs – Home</title>
+  <meta name="description" content="Why dogs are amazing: breeds, facts, and video.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- External CSS -->
+ <link rel="stylesheet" href="css/css_stylesheet.css">
+
+
+
+</head>
+
+<body>
+  <!-- Grid container organizes layout into header,main content,and footer-->
+  <div class="grid-container">
+
+    <!-- HEADER -->
+    <header class="grid-item grid-header">
+      <!-- Banner image representing the theme -->
+      <img src="img/banner1.jpg" alt = "happy dogs in the field" class="banner">
+
+
+      <!-- Horizontal menu navigation -->
+      <nav>
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="grid-item grid-main">
+      <!-- INTRO SECTION -->
+      <section id="intro">
+        <h1>Dogs Are the Best</h1>
+        <h2>Why dogs are truly our best friends</h2>
+        <p>
+          Dogs are loyal, intelligent, and loving companions that have been by our side for thousands of years.
+          From guiding the blind to rescuing people in disasters, they serve humans selflessly and bring happiness to millions of families.
+        </p>
+      </section>
+
+      <!-- QUOTE SECTION -->
+      <section id="reasons">
+        <h2>Why We Love Dogs</h2>
+        <q>Dogs do speak, but only to those who know how to listen.</q>
+        <p>Orhan Pamuk<br>
+          <cite>
+            Read more at:
+            <a href="https://www.goodreads.com/quotes/717466-dogs-do-speak-but-only-to-those-who-know-how"
+              target="_blank" rel="noopener">
+              https://www.goodreads.com/quotes/717466
+            </a>
+          </cite>
+        </p>
+
+        <p>Here’s why dogs are the best animals on Earth:</p>
+        <ul>
+          <li>They offer unconditional love and loyalty.</li>
+          <li>They help people emotionally and physically.</li>
+          <li>They bring happiness and calm to our homes.</li>
+          <li>They are brave, loyal, and intelligent companions.</li>
+        </ul>
+      </section>
+
+      <!-- NEWSLETTER / FORM SECTION -->
+      <div class="newsletter">
+        <h2>Sign up for our Dog Lovers Newsletter</h2>
+        <form action="#">
+          <p>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          </p>
+          <p>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          </p>
+          <p>
+            <label for="emailadd">Email</label>
+            <input type="email" id="emailadd" name="mail" placeholder="Email address" required>
+          </p>
+
+          <p>
+            <label><input type="checkbox" name="labs"> Labrador Retriever</label><br>
+            <label><input type="checkbox" name="collie"> Border Collie</label><br>
+            <label><input type="checkbox" name="pug"> Pug</label><br>
+            <label><input type="checkbox" name="pit"> Pit Bull</label><br>
+            <label><input type="checkbox" name="husky"> Husky</label>
+          </p>
+
+          <input type="submit" value="Subscribe">
+        </form>
+      </div>
+
+      <!-- FEATURED ARTICLES -->
+      <section id="articles">
+        <header class="section-header">
+          <h2>Featured Dog Breeds</h2>
+        </header>
+
+        <div class="articles-grid">
+          <article class="dog-article">
+            <h3>Labrador Retriever</h3>
+            <p>
+              Labradors are friendly, patient, and great family dogs. They are also amazing guide and rescue dogs.
+            </p>
+            <img src="img/dogs-65867_small.jpg" alt= "dog int the wild">
+          </article>
+
+          <article class="dog-article">
+            <h3>Border Collie</h3>
+            <p>
+              Border Collies are known for their intelligence, agility, and herding skills. They love mental challenges and games.
+            </p>
+          <img src="img/dogs-1694838_small.jpg"  alt="Border Collie running in a field">
+          </article>
+
+          <article class="dog-article">
+            <h3>Pug</h3>
+            <p>
+              Small, affectionate, and full of personality, Pugs are perfect companions for apartment living.
+            </p>
+             <img src="img/dogs-374906_small.jpg" alt="Pug sitting on a couch">
+          </article>
+        </div>
+      </section>
+
+      <!-- TABLE SECTION -->
+      <article aria-labelledby="dog-table-title">
+        <h2 id="dog-table-title">Popular Dog Breeds and Traits</h2>
+        <table class="dog_table">
+          <caption>Dog breeds and what makes them special</caption>
+          <thead>
+            <tr>
+              <th>Labrador</th>
+              <th>Border Collie</th>
+              <th>Pug</th>
+              
+            </tr>
+            <tr>
+              <th><img src="img/dogs-65867_small.jpg" alt="Labrador Retriever"></th>
+              <th><img src="img/dogs-1694838_small.jpg" alt="Border Collie"></th>
+              <th><img src="img/dogs-374906_small.jpg"  alt="Pug"></th>
+            
+             
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Loyal, playful, and great swimmers — ideal family dogs.</td>
+              <td>Highly intelligent and energetic, great for agility training.</td>
+              <td>Affectionate, gentle, and funny companions.</td>
+              
+            </tr>
+          </tbody>
+        </table>
+      </article>
+
+      <!-- VIDEO SECTION -->
+      <section id="video" aria-labelledby="video-title" class="video_section">
+        <h2 id="video-title">Watch Dogs in Action</h2>
+         <video width="1280" height="720" controls>
+            <source src="video/dog-4740.mp4" type="video/mp4">
+        </video>
+       
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="grid-item grid-footer">
+      <p>&copy; 2025 Dogs Website | Designed by Manjinder Kaur</p>
+    </footer>
+  </div>
+</body>
+</html>
